@@ -1,6 +1,7 @@
 import psycopg2
 import os
 
+# this is a python connector and run sql queries - it is an 'adapter', but is not an ORM
 connection = psycopg2.connect(
     database="library_api",
     user="postgres",
